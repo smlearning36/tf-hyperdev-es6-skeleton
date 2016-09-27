@@ -1,2 +1,4 @@
-# hyper-dev-counter-example
-Simple demo app for Thinkful's Node course
+Express counter example
+=======================
+
+Simple app to demo Express for Thinkful's Node course.
