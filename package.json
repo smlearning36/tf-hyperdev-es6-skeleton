@@ -4,7 +4,7 @@
 	"description": "Simple counter app to demo Express stack",
 	"main": "server.js",
 	"scripts": {
-		"start": "node server.js"
+		"start": "node --harmony server.js"
 	},
 	"dependencies": {
 		"express": "^5.0.0-alpha.2",
