@@ -7,7 +7,10 @@ const app = express();
 app.use(express.static('public'));
 
 // http://expressjs.com/en/starter/basic-routing.html
-app.get("/", (req, res) => res.sendFile(__dirname + 'index.html'));
+app.get("/", (req, res) => {
+  console.log('request to server root');
+  res.sendFile(__dirname + 'index.html')
+});
 
 // listen for requests :)
 app.listen(process.env.PORT, () => console.log(
