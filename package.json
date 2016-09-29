@@ -1,7 +1,7 @@
 {
-	"name": "thinkful-counter-example",
+	"name": "",
 	"version": "0.0.1",
-	"description": "Simple counter app to demo Express stack",
+	"description": "",
 	"main": "server.js",
 	"scripts": {
 		"start": "node --harmony server.js"
@@ -15,7 +15,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Thinkful-Ed/hyper-dev-counter-example"
+		"url": ""
 	},
 	"keywords": [
 		"thinkful",
@@ -23,5 +23,5 @@
 		"hyperdev",
 		"express"
 	],
-	"license": "MIT"
+	"license": ""
 }
